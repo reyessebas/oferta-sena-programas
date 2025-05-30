@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <meta name="author" content="Uriel Castañeda">
+  <meta name="description" content="Pagina WEB Oferta CDAE Villeta">
+  <meta name="keywords"
+    content="Emprendimiento, Cursos SENA, ADSI, Programación 
+        Hardware, Software, Mantenimiento hardware, Diseño web, Redes de datos
+        reparacion computadores, informática bstemas, cursos complementarios, ofimatica, project, excel, inform�tica b�sica">
+  <title>Oferta educativa CDAE</title>
+  <link rel="icon" href="imagenes/icono_web.png" type="image/png" sizes="20x20">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/contacto.css">
+
+</head>
+
+<body>
+  <header>
+    <table style="text-align: left; margin-left: auto; margin-right: auto; width: 1000px;" border="0" cellpadding="2"
+      cellspacing="2">
+
+      <tbody>
+        <tr>
+          <td colspan="1" rowspan="1" style="vertical-align: top;"><img style="width: 1000px; height: 240px;"
+              alt="CDAE - Villeta" src="imagenes/cdae_banner01.png" align="middle"><br>
+          </td>
+        </tr>
+        <tr style="color: rgb(179, 131, 58);">
+          <td style="vertical-align: top;" rowspan="1" colspan="1"><big>Desarrollamos Formación Profesional Integral en
+              programas orientados a los sectores primario, agroindustrial, comercial y de servicios de 29 municipios
+              del Occidente de Cundinamarca</big></td>
+        </tr>
+      </tbody>
+    </table>
+  </header>
+  <nav> <!-- Aqu� empieza la definici�n del men� de navegaci�n -->
+    <ul>
+      <li><a id="inicio" ; href="index.html">Inicio</a></li>
+      <li><a href="cursos_y_programas.html">Cursos y <br>Programas de formación</a></li>
+      <!--    <li><a href="inscripciones.html">Inscripciones</a></li> -->
+      <li><a id="contacto" ; href="contactenos.html">Contáctenos</a></li>
+    </ul>
+  </nav>
+
+
+
+  <big> </big><big> </big>
+  <table style="text-align: left; margin-left: auto; margin-right: auto; width: 1000px;" border="0" cellpadding="2"
+    cellspacing="2">
+
+    <tbody>
+      <tr>
+        <td colspan="1" rowspan="5" style="vertical-align: top; width: 419px;"><img style="width: 200px; height: 200px;"
+            alt="Contactenos" src="imagenes/correo1c.jpg"><br>
+        </td>
+        <td style="vertical-align: top; width: 561px;">
+        
+          <div id="h">
+            <h1 id="ti">FORMULARIO DE CONTACTO</h1>
+            <form action="">
+                <input type="text" placeholder="Nombre" id="nombre" class="redondo" >
+                <br>
+            
+                <br>
+                <input type="text"  placeholder="Apellido" id="apellido"  class="redondo">
+                <br>
+                <br>
+                <input type="number" placeholder="Numero de telefono" id="Numero"  class="redondo">
+                <br>
+                <br>
+                <input type="email" placeholder="Email" id="email"   class="redondo">
+                <br>
+                <br>
+                <input type="text" placeholder="Ciudad" id="Ciudad"  class="redondo">
+                <br>
+                <br>
+                
+                <select  name="curso"  class="redondo">
+                    <option>Programas de formacion</option>
+                    <option>Control de calidad de la industria de alimentos</option>
+                    <option>Gestión contable y de información financiera </option>
+                    <option class="op3">Implementación de infraestructura de tecnologías  de información y las comunicaciones</option>
+                    <option>Gestión comercial de negocios verdes</option>
+                    <option>Gestión administrativa </option>
+                    <option>Recursos humanos </option>
+                    <option >Asistencia administrativa </option>
+        
+        
+        
+        
+                </select>
+                <br>
+        
+                <br>
+                <br>
+        
+                
+                <textarea  style="font-family: Arial, Helvetica, sans-serif;" id="m" class="mensaje" cols="40" rows="10">Mensaje</textarea >
+        
+                <br>
+        
+                <p>Acepta los terminos y condiciones<input type="checkbox" id="aceptar"></p>
+                <br>
+                <br>
+                
+              
+              <a id="boton_enviar"  href="#" class="cta" type="submit" onclick='return enviomsg();' class="enviar" value="envio">
+                <span>Enviar</span>
+                <svg width="10px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+        
+            </form>
+            <br>
+            <br>
+            
+            <div id ='error'></div>
+        
+        </div>        
+        
+        
+        </td>
+      </tr>
+
+
+
+    </tbody>
+  </table>
+
+
+
+  <big style="font-weight: bold;"><span style="color: rgb(51, 51, 255);"></span></big><br>
+
+
+
+  <footer>
+    <table
+      style="text-align: left; width: 1000px; background-color: rgb(255, 242, 178); margin-left: auto; margin-right: auto;"
+      border="0" cellpadding="2" cellspacing="2">
+
+      <tbody>
+        <tr>
+          <td style="vertical-align: top;">
+            <img style="width: 296px; height: 142px;" alt="Información e Inscripciones"
+              src="imagenes/informacion_e_inscripciones2.png">
+          </td>
+          <td style="vertical-align: top; width: 166px; text-align: center;">
+            <img style="width: 120px; height: 120px;" alt="Logo SENA" src="imagenes/logo_sena1.png"><a
+              href="http://oferta.senasofiaplus.edu.co/sofia-oferta/buscar-oferta-educativa.html?radio=opcion199&buscador_texto=Ej%3A+Cocina%2C+Contabilidad&ffv=-1&ciudad=VILLETA+%28+CUNDINAMARCA+%29&campoEmpresa=&nfct=-1">
+              <img style="border: 0px solid ; width: 170px; height: 34px;" alt="SenaSofiaPlus.edu.co"
+                title="acceso a SenaSofiaPlus.edu.co" src="imagenes/senasofiaplus.png"></a><br>
+          </td>
+          <td style="vertical-align: top; width: 510px;">
+            <br>
+            <p class="MsoNormal" style="margin: 0cm 0cm 0.0001pt 7.1pt; text-align: center; line-height: normal;"><b
+                style=""><span style="font-size: 16pt;">Centro de Desarrollo Agroindustrial y Empresarial</span></b></p>
+            <div style="text-align: center;"><span style="font-size: 12pt;"><big
+                  style="color: rgb(204, 0, 0);"><big><big><span style="font-weight: bold;"><span
+                          style="color: rgb(74, 126, 204);">Teléfono:</span>&nbsp;&nbsp; - - - - - - </span></big></big></big><span
+                  style=""><span style="color: rgb(204, 0, 0);">&nbsp;</span>&nbsp;&nbsp; </span></span>
+            </div>
+            <div style="text-align: center;"><b style=""><span style="font-size: 16pt;"><span
+                    style=""></span></span></b><span style="font-size: 12pt;">Dirección: <span style="">&nbsp;&nbsp;
+                </span><span style=""></span></span>Calle 2 No. 13 - 03 Barrio San Rafael Villeta</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr id="linea_pie">
+    <div id="copyrigth" ; align="center">CopyRight&nbsp; SENA Regional Cundinamarca - CDAE VILLETA - 2023 - ADS0 2693143
+    <br></div>
+  </footer>
+
+</body>
+
+</html>
